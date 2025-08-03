@@ -5,7 +5,7 @@ import img2 from "../../assets/home/02.jpg";
 import img3 from "../../assets/home/03.jpg";
 import img4 from "../../assets/home/04.jpg";
 import img5 from "../../assets/home/05.jpg";
-import img6 from "../../assets/home/06.jpg";
+// import img6 from "../../assets/home/06.jpg";
 
 const Banner = () => {
   return (
@@ -25,9 +25,9 @@ const Banner = () => {
       <div>
         <img src={img5} />
       </div>
-      <div>
+      {/* <div>
         <img src={img6} />
-      </div>
+      </div> */}
     </Carousel>
   );
 };
